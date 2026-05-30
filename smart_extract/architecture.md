@@ -1,24 +1,19 @@
+1. System Overview
+   └── High-Level Architecture Diagram
 
-flowchart LR
+2. Core Components
+   ├── Data Acquisition Layer
+   ├── AI Processing Layer
+   ├── Data Engineering Layer
+   ├── Storage & Backend Layer
+   ├── Consumption Layer
+   └── Monitoring Layer
 
-    A[External Sources<br>Competitor Websites<br>Public Data Sources]
+3. Detailed Workflow
+   └── Detailed Mermaid Diagram
 
-    B[Data Acquisition Layer<br>URL Management<br>Web Scraping<br>Scheduling]
-
-    C[AI Processing Layer<br>Classification<br>Entity Extraction<br>Content Understanding]
-
-    D[Data Engineering Layer<br>Transformation<br>Validation<br>Deduplication]
-
-    E[Storage & Backend Layer<br>JSON / CSV<br>Database<br>Application Services]
-
-    F[Consumption Layer<br>Dashboards<br>Reports<br>APIs]
-
-    G[Monitoring & Observability<br>Logging<br>Error Tracking<br>Performance Metrics]
-
-    A --> B
-    B --> C
-    C --> D
-    D --> E
-    E --> F
-
-    E --> G
+4. Future Enhancements
+   ├── LLM-based Reasoning
+   ├── Agentic Workflows
+   ├── Vector Search
+   └── Real-Time Processing
