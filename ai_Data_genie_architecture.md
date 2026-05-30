@@ -1,8 +1,4 @@
 flowchart TD
-    User["User (Business / Analyst)"]
-    FutureAlerts["Future Scope: Proactive\nalerts & scheduled digests"]
-    FlaskUI["Flask UI\n(Chat + Crosstab + Charts + Insights)"]
-    APIOrch["/api/chat/ask\n(Backend Orchestrator)"]
 
     User --> FlaskUI
     FutureAlerts -.-> FlaskUI
