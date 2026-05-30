@@ -1,30 +1,24 @@
-flowchart TD
-    A[Competitive Websites / External Sources] --> B[URL Input Manager]
-    B --> C[Web Scraping Engine]
-    C --> D[HTML Fetching]
-    D --> E[Dynamic Content Handling]
-    E --> F[Request Scheduler]
-    F --> G[AI Parsing Layer]
-    G --> H[Context Classification]
-    G --> I[Entity Extraction]
-    G --> J[Pattern Recognition]
-    G --> K[Text Cleaning & Normalization]
-    G --> L[Data Transformation]
-    L --> M[Schema Mapping(s)]
-    L --> N[Data Validation]
-    N --> O[Data Processing Layer]
-    O --> P[Deduplication Logic]
-    P --> Q[Storage Layer]
-    Q --> R[Flat Files / CSV / JSON]
-    Q --> S[Backend Application]
-    S --> T[Monitoring & Logging]
-    T --> U[Error Tracking]
-    T --> V[Execution Logs]
-    T --> W[Performance Metrics]
-    S --> X[Flash API Services]
-    S --> Y[Business Logic Engine]
-    S --> Z[Scheduling & Automation Engine]
-    Z --> AA[Visualization / Consumption Layer]
-    AA --> AB[Dashboards]
-    AA --> AC[Reports]
-    AA --> AD[Data APIs for External Use]
+
+flowchart LR
+
+    A[External Sources<br>Competitor Websites<br>Public Data Sources]
+
+    B[Data Acquisition Layer<br>URL Management<br>Web Scraping<br>Scheduling]
+
+    C[AI Processing Layer<br>Classification<br>Entity Extraction<br>Content Understanding]
+
+    D[Data Engineering Layer<br>Transformation<br>Validation<br>Deduplication]
+
+    E[Storage & Backend Layer<br>JSON / CSV<br>Database<br>Application Services]
+
+    F[Consumption Layer<br>Dashboards<br>Reports<br>APIs]
+
+    G[Monitoring & Observability<br>Logging<br>Error Tracking<br>Performance Metrics]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+
+    E --> G
